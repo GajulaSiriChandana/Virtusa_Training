@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(returnbook.png);
+    height: 100%;
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.adminloginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius:10px;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.adminloginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.adminloginbox input{
+    width: 100;
+    margin-bottom: 20px;
+
+}
+.adminloginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+button{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 153, 148);
+    background: transparent;
+    color: rgb(222, 226, 230);
+    cursor: pointer; 
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #97bbbb;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+button:hover span{
+    width: 100%;
+}
